@@ -230,3 +230,21 @@ mysql> select * from address_book;
 | Stephan    | Markel    | Baybeach Residence, HayFlour Street, New City, Hayworth   | New City   | Hayworth  | 235682 | 919349784603 | stephan@gmail.com | Book-B | Profession |
 +------------+-----------+-----------------------------------------------------------+------------+-----------+--------+--------------+-------------------+--------+------------+
 7 rows in set (0.03 sec)
+
+mysql> select * from address_book;
++------------+-----------+-----------------------------------------------------------+------------+-----------+--------+--------------+-------------------+--------+------------+
+| first_name | last_name | address                                                   | city       | state     | zip    | phone_number | email             | name   | type       |
++------------+-----------+-----------------------------------------------------------+------------+-----------+--------+--------------+-------------------+--------+------------+
+| Betty      | Jones     | Bayleaf Residence, BlueStreet, Newman, Greenward          | Newman     | Greenward | 235689 | 919368784893 | betty@gmail.com   | Book-A | Family     |
+| Billy      | Mason     | Blue Residence, New Street, Newman, Greenward             | Newman     | Greenward | 235656 | 919368564893 | billy@gmail.com   | Book-A | Family     |
+| Cellery    | Jenkins   | Baybeach Residence, JaneBluewich, New City, Haymon        | New City   | Haymon    | 235667 | 919349784893 | cellery@gmail.com | Book-A | Friends    |
+| Elizabeth  | Burns     | Matte Residency, Tellywoods, Natveille                    | Tellywoods | Natveille |  23452 | 919134534463 | eliza@gmail.com   | Book-B | Family     |
+| Georgia    | Locks     | Moon Residence, Blue Beach, Norman, Centwine              | Norman     | Centwine  | 256689 | 919356784893 | georgia@gmail.com | Book-A | Friends    |
+| Sophia     | Grahams   | Turkish Residence, MapleForest Street, New City, Hayworth | New City   | Hayworth  |  23782 | 919349994603 | sophia@gmail.com  | Book-A | Profession |
+| Stephan    | Markel    | Baybeach Residence, HayFlour Street, New City, Hayworth   | New City   | Hayworth  | 235682 | 919349784603 | stephan@gmail.com | Book-B | Profession |
++------------+-----------+-----------------------------------------------------------+------------+-----------+--------+--------------+-------------------+--------+------------+
+7 rows in set (0.00 sec)
+
+
+UC12:
+ERDiagram 
